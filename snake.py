@@ -17,7 +17,7 @@ snake = [
 ]
 
 food = [sh//2, sw//2]
-w.addch(int(food[0]), int(food[1]), 'O')
+w.addch(int(food[0]), int(food[1]), '@')
 
 import time
 
@@ -61,7 +61,7 @@ while True:
                 random.randint(1, sw-1)
             ]
             food = nf if nf not in snake else None
-        w.addch(food[0], food[1], 'O')
+        w.addch(food[0], food[1], '@')
     else:
         tail = snake.pop()
         w.addch(int(tail[0]), int(tail[1]), ' ')
