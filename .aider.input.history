@@ -1,0 +1,39 @@
+
+# 2023-07-16 12:49:51.228216
++create the game snake using python
+
+# 2023-07-16 12:55:50.760081
++now add a score of how many pieces of food the snake has eaten in the top right with large font. Also add a time duration in milliseconds.
+
+# 2023-07-16 12:59:34.845099
++instead of having the pi symbol be the food from the beginning of the game, make it the emoji character for a mouse.
+
+# 2023-07-16 13:02:18.806140
++OK, instead of M for the food, please replace it with O with tilde.
+
+# 2023-07-16 13:03:27.274291
++Replace the food symbol (O) with ☻.
+
+# 2023-07-16 13:06:54.686902
++Can you switch the character set from ASCII to emoji and unicode with color so that the snake shape has a head and tale, and the food can be the mouse emoji?
+
+# 2023-07-16 13:10:10.574954
++/commit
+
+# 2023-07-16 13:23:24.344039
++/exit
+
+# 2023-07-16 13:28:14.576076
++How do I commit the snake.py project and file to Github?
+
+# 2023-07-16 13:29:40.393672
++cd
+
+# 2023-07-16 13:29:59.476127
++/exit
+
+# 2023-07-16 13:42:29.139230
++commit to github
+
+# 2023-07-16 13:43:04.355829
++git init
