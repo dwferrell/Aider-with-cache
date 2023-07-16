@@ -19,11 +19,17 @@ snake = [
 food = [sh//2, sw//2]
 w.addch(int(food[0]), int(food[1]), curses.ACS_PI)
 
+import time
+
 score = 0
+start_time = time.time()
 
 key = curses.KEY_RIGHT
 
 while True:
+    elapsed_time = time.time() - start_time
+    w.addstr(0, sw-12, 'Score : ' + str(score) + ' Time : ' + str(int(elapsed_time*1000)) + ' ms') 
+
     next_key = w.getch()
     key = key if next_key == -1 else next_key
 
